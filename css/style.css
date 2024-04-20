@@ -247,3 +247,8 @@ Banner Design
 #home .carousel-caption {
   top: 12rem;
 }
+
+#home .carousel-caption p {
+  max-width: 36.25rem;
+  margin: 1.0625rem auto;
+}
