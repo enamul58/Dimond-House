@@ -224,7 +224,7 @@ Header Design
 }
 
 /* change navbar styling on scroll */
-.navigation_wrapper .scroll_on {
+.navigation_wrapper.scroll_on {
   position: fixed;
   top: 0;
   left: 0;
@@ -251,4 +251,18 @@ Banner Design
 #home .carousel-caption p {
   max-width: 36.25rem;
   margin: 1.0625rem auto;
+}
+
+/*
+=======================
+New Arrivals section  
+=======================
+*/
+.new-arrivals .banner-info {
+  bottom: 30px;
+  margin: auto;
+  width: 100%;
+  position: absolute;
+  z-index: 9;
+  padding: 0 15px;
 }
